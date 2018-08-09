@@ -1,0 +1,160 @@
+# Russian translation of TFA (7.x-1.1)
+# Copyright Sergey S. <5818959@gmail.com>
+# Generated from files:
+#  tfa.admin.inc: n/a
+#  tfa.form.inc: n/a
+#  tfa.module: n/a
+#  tfa.install: n/a
+#  tfa.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: TFA (7.x-1.1)\n"
+"POT-Creation-Date: 2018-08-02 12:44+0300\n"
+"PO-Revision-Date: 2018-08-02 14:01+0300\n"
+"Last-Translator: Sergey S. <5818959@gmail.com>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+"Language: ru\n"
+"X-Generator: Poedit 2.1.1\n"
+
+#: tfa.admin.inc:31
+msgid "The TFA module requires the PHP Mcrypt extension be installed on the web server. See <a href=\"!link\">the TFA help documentation</a> for setup."
+msgstr "Модуль TFA требует, чтобы расширение PHP Mcrypt было установлено на веб-сервере. См. <a href=\"!link\"> справочную документацию TFA</a> для настройки."
+
+#: tfa.admin.inc:37
+msgid "No plugins available for validation. See <a href=\"!link\">the TFA help documentation</a> for setup."
+msgstr "Нет доступных плагинов для проверки. См. <a href=\"!link\"> справочную документацию TFA </a> для настройки."
+
+#: tfa.admin.inc:45
+msgid "Available plugins"
+msgstr "Доступные плагины"
+
+#: tfa.admin.inc:73
+msgid "Enable TFA"
+msgstr "Включить TFA"
+
+#: tfa.admin.inc:75
+msgid "Enable TFA for account authentication."
+msgstr "Включить TFA для аутентификации учетной записи."
+
+#: tfa.admin.inc:86
+msgid "Default validation plugin"
+msgstr "Плагин по умолчанию"
+
+#: tfa.admin.inc:89
+msgid "Plugin that will be used as the default TFA process."
+msgstr "Плагин, который будет использоваться для TFA по умолчанию."
+
+#: tfa.admin.inc:96
+msgid "No available validation plugins available. TFA process will not occur."
+msgstr "Нет доступных плагинов проверки. Процесс TFA не будет происходить."
+
+#: tfa.admin.inc:105
+msgid "Validation fallback plugins"
+msgstr "Резервные плагины проверки"
+
+#: tfa.admin.inc:106
+msgid "Fallback plugins and order. Note, if a fallback plugin is not setup for an account it will not be active in the TFA form."
+msgstr "Резервные плагины и их порядок. Обратите внимание, что если резервный плагин не настроен для учетной записи, он не будет активен в форме TFA."
+
+#: tfa.admin.inc:125;151
+msgid "Order"
+msgstr "Порядок"
+
+#: tfa.admin.inc:165
+msgid "Login plugins"
+msgstr "Плагины входа"
+
+#: tfa.admin.inc:168
+msgid "Plugins that can allow a user to skip the TFA process. If any plugin returns true the user will not be required to follow TFA. <strong>Use with caution.</strong>"
+msgstr "Плагины, которые могут позволить пользователю пропустить процесс TFA. Если какой-либо плагин возвращает true, пользователю не потребуется проходить TFA. <strong> Следует использовать с осторожностью.</strong>"
+
+#: tfa.admin.inc:176
+msgid "Save configuration"
+msgstr "Сохранить конфигурацию"
+
+#: tfa.admin.inc:186
+msgid "Configuration saved"
+msgstr "Конфигурация сохранена"
+
+#: tfa.form.inc:33
+msgid "Can't access your account?"
+msgstr "Не удается получить доступ к своей учетной записи?"
+
+#: tfa.form.inc:121
+msgid "You have just used your one-time login link. It is no longer necessary to use this link to log in. Please change your password."
+msgstr "Вы только что использовали вашу ссылку одноразового входа. Она больше недействительна. Пожалуйста, введите ваш новый пароль."
+
+#: tfa.form.inc:176
+msgid "You have reached the threshold for incorrect code entry attempts. Please try again in !time minutes."
+msgstr "Вы достигли порога неправильных попыток ввода кода. Повторите попытку через !time минут."
+
+#: tfa.form.inc:181
+msgid "You have reached the threshold for TFA attempts. Please try again in !time minutes."
+msgstr "Вы достигли порога для попыток TFA. Повторите попытку через !time минут."
+
+#: tfa.form.inc:120
+msgid "User %name used one-time login link"
+msgstr "Пользователь %name использовал одноразовую ссылку для входа в систему"
+
+#: tfa.module:48
+msgid "Administer TFA"
+msgstr "Администрирование TFA"
+
+#: tfa.module:49
+msgid "Configure two-factor authentication settings."
+msgstr "Настройка параметров двухфакторной аутентификации."
+
+#: tfa.module:435
+msgid "For up-to-date help see the <a href=\"!url\">TFA module documentation</a> on drupal.org."
+msgstr "Для получения последней справки см. <a href=\"!url\">Документацию модуля TFA</a> на drupal.org."
+
+#: tfa.module:438
+msgid "Two-factor Authentication for Drupal"
+msgstr "Двухфакторная аутентификация для Drupal"
+
+#: tfa.module:439
+msgid "TFA is a base module for providing two-factor authentication for your Drupal site. As such it provides a framework for specific TFA plugins that act during user authentication to confirm a \"second factor\" for the user."
+msgstr ""
+"TFA является базовым модулем для обеспечения двухфакторной аутентификации для вашего сайта Drupal. Таким образом, он обеспечивает структуру для конкретных плагинов TFA, которые действуют во время аутентификации пользователя, "
+"чтобы подтвердить «второй фактор» для пользователя."
+
+#: tfa.module:391
+msgid "Session closed for %name."
+msgstr "Для %name сессия закрыта."
+
+#: tfa.module:418
+msgid "Session opened for %name."
+msgstr "Сессия для %name открыта."
+
+#: tfa.module:12
+msgid "Two-Factor Authentication"
+msgstr "Двухфакторная аутентификация"
+
+#: tfa.module:22
+msgid "Two-factor Authentication"
+msgstr "Двухфакторная аутентификация"
+
+#: tfa.module:23
+msgid "TFA process and plugin settings"
+msgstr "Настройка TFA и плагинов"
+
+#: tfa.install:31
+msgid "The TFA module requires the PHP Mcrypt extension be installed on the web server."
+msgstr "Модуль TFA требует, чтобы расширение PHP Mcrypt было установлено на веб-сервере."
+
+#: tfa.install:43
+msgid "Two-factor authentication"
+msgstr "Двухфакторная аутентификация"
+
+#: tfa.info:0
+msgid "Two-factor Authentication (TFA)"
+msgstr "Двухфакторная аутентификация (TFA)"
+
+#: tfa.info:0
+msgid "Pluggable provider of second factor authentication for Drupal"
+msgstr "Подключаемый провайдер аутентификации второго фактора для Drupal"
